@@ -1,0 +1,45 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color:  #DEDCDA;
+    font-family: 'Cormorant Garamond', serif;
+    color:      #96908A;
+    font-size: 36px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 5%;
+}
+
+.left-panel {
+    width: 60%;
+}
+
+.right-panel {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #96908A;
+
+}
+a:visited {
+    text-decoration: none;
+    color: #96908A;
+
+}
