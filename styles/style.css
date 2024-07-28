@@ -19,20 +19,20 @@ body {
   } 
 
 .left-panel {
-    width: 65%;
-    padding-top: 0px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.right-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
 }
 
 p {
     margin-top: 0px;
 }
-
-.right-panel {
-    width: 35%;
-    display: flex;
-    flex-direction: column;
-}
-
 
 a {
     text-decoration: none;
@@ -47,4 +47,17 @@ a:visited {
     text-decoration: none;
     color: #96908A;
 
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
 }
